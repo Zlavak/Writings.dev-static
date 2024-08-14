@@ -4,243 +4,233 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Writings.dev example</title>
-        <link href="/style.css" rel="stylesheet">
+        <link href="./src/assets/styles/index.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <header class="header">
-                <p class="heading1 header-top"><a class="white" href="index.html">writings.dev</a></p>
-                <p class="heading2 header-top"><a class="white" href="index.html">categories</a></p>
-                <p class="heading3 header-top"><a class="white" href="index.html">articles</a></p>
-                <p class="heading4 header-top"><a class="white" href="index.html">about</a></p>
-                <img src="src/logo.png" alt="logo" class="logo">
-                <h1 class="headline">Writings for Developers</h1>
-                <h2 class="quote">Curated collection of articles for busy developers</h2>
-            </header>
-            <nav class="nav filter">
-                <table class="table">
-                    <tr>
-                        <td class="first-filter">
-                            <button>
-                                <img src="src/grid-icon.png" alt="filter" class="filter-img">
-                            </button>
-                        </td>
-                        <td class="first-filter">
-                            <button>
-                                <img src="src/list-icon.png" alt="filter" class="filter-img">
-                            </button>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">JavaScript</a>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">DevOps</a>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">Cloud</a>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">Terraform</a>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">Architecture</a>
-                        </td>
-                        <td>
-                            <a href="index.html#devops">Scalability</a>
-                        </td>
-                        <td class="last-td">
-                            <a href="">Explainers</a>
-                        </td>
-                    </tr>
-                </table>
+        <header class="header container">
+            <div class="header__logo">
+                <a href="index.html">writings.dev</a>
+            </div>
+            <nav class="header__navbar">
+                <a href="index.html">categories</a>
+                <a href="index.html">articles</a>
+                <a href="index.html">about</a>
             </nav>
-            <main class="content">
-                <article class="item DevOps article1" id="devops">
-                    <img src="src/article-image1.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article2">
-                    <img src="src/article-image2.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Python for the Absolute beginners
-                    </h1>
-                    <p class="article-text">
-                        Python is the most popular programming language out there and it is used for so many different industries.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article3">
-                    <img src="src/article-image3.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Docker from Zero to Hero
-                    </h1>
-                    <p class="article-text">
-                        Learn what is Docker and  how Docker is used in the whole software development process.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article4">
-                    <img src="src/article-image4.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article5">
-                    <img src="src/article-image5.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article6">
-                    <img src="src/article-image6.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article7">
-                    <img src="src/article-image7.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article8">
-                    <img src="src/article-image8.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article>
-                <article class="item DevOps article9">
-                    <img src="src/article-image9.png" alt="article picture" class="content-img">
-                    <h1 class="article-headline">
-                        Build continuous integration pipelines with GitHub Actions
-                    </h1>
-                    <p class="article-text">
-                        GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
-                    </p>
-                    <div class="date">
-                        <p class="article-text inline">
-                            June 24, 2022
-                        </p>
-                        <img src="src/ellipse1.svg" alt="" class="circle">
-                        <p class="article-text inline">
-                            DevOps
-                        </p>
-                    </div>
-                </article`>
-            </main>
-            <nav class="page-switch">
-                <ul>
-                    <li class="page-nav"><a href="" class="hop-one">Previous</a></li>
-                    <li class="page-nav num"><a href="">1</a></li>
-                    <li class="page-nav num"><a href="">2</a></li>
-                    <li class="page-nav num"><a href="">3</a></li>
-                    <li class="page-nav num"><a href="">4</a></li>
-                    <li class="page-nav num"><a href="">5</a></li>
-                    <li class="page-nav"><a href="" class="hop-one">Next</a></li>
-                </ul>
-            </nav>
-            <footer class="footer">
-                <div class="ft-box">
-                    <p class="ft-writings">
-                        writings.dev
-                    </p>
-                    <p class="painted" style="align-self: center;">by @kamrify</p>
-                </div>
-                <a href="index.html#devops" class="ft-box painted">
-                    <img src="src/twitter.svg" alt="X_logo">
-                    <p>Follow @writingsdev</p>
-                </a>
-            </footer>
+        </header>
+        <div class="main container">
+            <img src="./src/assets/images/logo.png" alt="logo">
+            <h1 class="main__headline">Writings for Developers</h1>
+            <h2 class="main__quote">Curated collection of articles for busy developers</h2>
         </div>
+        <nav class="nav-wrapper">
+            <nav class="nav container">
+                <div class="nav__buttons">
+                    <button class="nav__button">
+                        <img src="./src/assets/images/grid-icon.png" alt="filter" />
+                    </button>
+                    <button class="nav__button">
+                        <img src="./src/assets/images/list-icon.png" alt="filter" />
+                    </button>
+                </div>
+                <div class="nav__filter">
+                    <div class="nav__filter-shadow"></div>
+                    <a href="index.html#devops">JavaScript</a>
+                    <a href="index.html#devops">DevOps</a>
+                    <a href="index.html#devops">Cloud</a>
+                    <a href="index.html#devops">Terraform</a>
+                    <a href="index.html#devops">Architecture</a>
+                    <a href="index.html#devops">Scalability</a>
+                    <a href="index.html#devops">Explainers</a>
+                    <a href="index.html#devops">Explainers</a>
+                </div>
+            </nav>
+        </nav>
+        <main class="content container">
+            <article class="item DevOps article1" id="devops">
+                <img src="./src/assets/images/article-image1.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article2">
+                <img src="./src/assets/images/article-image2.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Python for the Absolute beginners
+                </h1>
+                <p class="article-text">
+                    Python is the most popular programming language out there and it is used for so many different industries.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/images/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article3">
+                <img src="./src/assets/images/article-image3.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Docker from Zero to Hero
+                </h1>
+                <p class="article-text">
+                    Learn what is Docker and  how Docker is used in the whole software development process.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/images/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article4">
+                <img src="./src/assets/images/article-image4.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article5">
+                <img src="./src/assets/images/article-image5.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article6">
+                <img src="./src/assets/images/article-image6.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article7">
+                <img src="./src/assets/images/article-image7.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article8">
+                <img src="./src/assets/images/article-image8.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article>
+            <article class="item DevOps article9">
+                <img src="./src/assets/images/article-image9.png" alt="article picture" class="content-img">
+                <h1 class="article-headline">
+                    Build continuous integration pipelines with GitHub Actions
+                </h1>
+                <p class="article-text">
+                    GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.
+                </p>
+                <div class="date">
+                    <p class="article-text inline">
+                        June 24, 2022
+                    </p>
+                    <img src="./src/assets/icons/ellipse1.svg" alt="" class="circle">
+                    <p class="article-text inline">
+                        DevOps
+                    </p>
+                </div>
+            </article`>
+        </main>
+        <nav class="page-switch">
+            <ul>
+                <li class="page-nav"><a href="" class="hop-one">Previous</a></li>
+                <li class="page-nav num"><a href="">1</a></li>
+                <li class="page-nav num"><a href="">2</a></li>
+                <li class="page-nav num"><a href="">3</a></li>
+                <li class="page-nav num"><a href="">4</a></li>
+                <li class="page-nav num"><a href="">5</a></li>
+                <li class="page-nav"><a href="" class="hop-one">Next</a></li>
+            </ul>
+        </nav>
+        <footer class="footer">
+            <div class="ft-box">
+                <p class="ft-writings">
+                    writings.dev
+                </p>
+                <p class="painted" style="align-self: center;">by @kamrify</p>
+            </div>
+            <a href="index.html#devops" class="ft-box painted">
+                <img src="./src/assets/icons/twitter.svg" alt="X_logo">
+                <p>Follow @writingsdev</p>
+            </a>
+        </footer>
     </body>
 </html>
