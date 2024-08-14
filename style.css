@@ -11,6 +11,10 @@ body {
     background-color: #232830;
 }
 
+.white {
+    color: white;
+}
+
 .container {
     display: grid;
     grid-template: 
@@ -29,7 +33,7 @@ body {
 }
 
 .header-top {
-    padding-top: 75px;
+    padding-top: 90px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 400;
@@ -39,6 +43,7 @@ body {
 }
 
 .heading1 {
+    padding-top: 75px;
     grid-area: 1 / 2 / 2 / 3;
     font-size: 30px;
 }
@@ -86,8 +91,7 @@ body {
 }
 
 .nav .table {
-    padding: 0 0 0 17%;
-    width: 80%;
+    margin: 0 auto;
     height: 100%;
     text-align: center;
 }
@@ -134,25 +138,29 @@ td a {
 .content {
     grid-area: cnt;
     color: black;
-    min-height: 1455px;
+    /*min-height: 1455px;*/
     width: 100%;
     display: grid;
-    grid-template: repeat(3, minmax(440px, auto)) / repeat(3, minmax(390px, auto));
+    grid-template: repeat(3, 440px) / repeat(3, 390px);
     justify-content: center;
     align-items: center;
     gap: 37px;
-    padding: 94px 218px;
+    padding: 3% 0;
 }
 
 .item {
-    min-height: 440px;
-    max-width: 390px;
+    height: 100%;
     border: 1px solid white;
     border-radius: 6%;
     background-color: white;
     padding: 26px 26.46px 29px;
     position: relative;
 
+}
+
+.content-img {
+    width: 338px;
+    height: 160px;
 }
 
 .inline {
@@ -180,34 +188,31 @@ td a {
 
 .date {
     position: absolute;
-    bottom: 29px;
+    bottom: 5%;
 }
 
 .page-switch {
     grid-area: switch;
     justify-self: center;
-    /*overflow: hidden;*/
-    padding-right: 7%;
+    margin-right: 60px;
 }
 
 li {
     float: left;
     list-style-type: none;
     text-decoration: none;
-    font-family: "Recursive", sans-serif;
-    font-style: italic;
+    font-family: Recursive;
     font-size: 25px;
+    font-style: italic;
     font-weight: 400;
-
 }
 
 li a.hop-one {
-    padding: 0 43px;
+    padding: 0 29px;
 }
 
-li a {
+li.num a {
     padding: 0 14px;
-    text-align: center;
     position: relative;
 }
 
@@ -256,6 +261,11 @@ li a.hop-one:hover::before {
     margin-bottom: 127px;
 }
 
+.ft-writings {
+    font-size: 30px; 
+    margin-right: 16px;
+}
+
 .painted {
     background-color: #4699E0;
     border-radius: 5px;
@@ -274,3 +284,118 @@ a.ft-box img {
     margin: 0 10px 0 0;
 }
 
+@media screen and (max-width: 1300px) {
+
+    .filter-img {
+        height: 24px;
+        width: 24px;
+    }
+    
+    
+    td {
+        padding: 0 15px;
+    }
+    
+    td a {
+        font-size: 24px;
+    }
+
+    .content {
+        grid-template: repeat(3, 400px) / repeat(3, 350px);
+        gap: 27px;
+        padding: 3% 0;
+    }
+
+    .item {
+        padding: 26px 6.5% 29px;
+        position: relative;
+    
+    }
+
+    .content-img {
+        width: 302px;
+        height: 150px;
+    }
+    
+    .circle {
+        margin: 0 26px 4px 17px;
+    }
+    
+    .article-headline {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    
+    .article-text {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 13px;
+    
+    }
+    
+    .footer {
+        margin-top: 100px; 
+        padding: 36px 17% 0 18%;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .header-top {
+        font-size: 20px;
+    }
+
+    .heading1 {
+        font-size: 24px;
+    }
+
+    .headline {
+        font-size: 59px;
+    }
+        
+    .quote {
+        font-size: 20px;
+    }
+
+    .filter-img {
+        height: 14px;
+        width: 14px;
+    }
+    
+    
+    td {
+        padding: 0 10px;
+    }
+    
+    td a {
+        font-size: 20px;
+    }
+
+    .content {
+        grid-template: repeat(5, 400px) / repeat(2, 350px);
+        gap: 27px;
+        padding: 3% 0;
+    }
+    
+    .footer {
+        margin-top: 50px; 
+        padding: 36px 17% 0 18%;
+
+    }
+
+    .ft-box {
+        font-size: 16px;
+    }
+    
+    .ft-writings {
+        font-size: 24px; 
+    }
+    
+
+}
